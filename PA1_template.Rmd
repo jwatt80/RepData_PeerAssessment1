@@ -86,4 +86,5 @@ data3$interval <- as.numeric(data3$interval)
 data3 <- data3[order(data3$day),]
 library(lattice)
 xyplot(steps ~ interval | day, data=data3, type = "l", layout = c(1,2))
+```
 
