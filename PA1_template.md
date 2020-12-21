@@ -24,6 +24,7 @@ str(data)
 
 ```r
 byday <- tapply(data$steps, data$date, sum)
+
 hist(byday, main = "Histogram of Total Steps per Day, including NAs",
      xlab = "Steps")
 ```
