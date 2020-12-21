@@ -136,3 +136,4 @@ xyplot(steps ~ interval | day, data=data3, type = "l", layout = c(1,2))
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+
