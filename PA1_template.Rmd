@@ -15,8 +15,11 @@ str(data)
 ## What is mean total number of steps taken per day?
 ```{r echo=TRUE}
 byday <- tapply(data$steps, data$date, sum)
+
 hist(byday, main = "Histogram of Total Steps per Day, including NAs",
      xlab = "Steps")
+
+
 summary(byday)
 ```
 
